@@ -22,17 +22,18 @@ export default function Home() {
       <div className="mt-6 text-white text-center">
         <button
           onClick={removeCount}
-          className="px-2 py-1 text-sm rounded bg-red-400 border border-red-500 cursor-pointer"
+          className="px-2 py-1 text-sm rounded bg-red-500 border border-red-600 cursor-pointer"
         >
           Decrease
         </button>
         <button
           onClick={addCount}
-          className="px-2 py-1 text-sm bg-green-400 rounded ml-4 border border-green-500 cursor-pointer"
+          className="px-2 py-1 text-sm bg-green-500 rounded ml-4 border border-green-600 cursor-pointer"
         >
           Increase
         </button>
       </div>
+      <p className="text-center font-semibold mt-2">Tap and see</p>
     </div>
   );
 }
