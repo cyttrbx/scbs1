@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -11,12 +12,15 @@ export default function Home() {
   const removeCount = () => {
     if (count > 0) {
       setCount(count - 1);
-    
     }
   };
 
   return (
     <div className="p-2 mt-4">
+      <nav className="flex gap-4">
+        <Link href="/about" className="underline text-blue-500">About</Link>
+        <Link href="/login" className="underline text-blue-500">Login</Link>
+      </nav>
       <h1 className="text-red-500 font-semibold text-center ">Counter App</h1>
       <p className="text-center text-xl font-semibold mt-4">{count}</p>
       <div className="mt-6 text-white text-center">
