@@ -6,7 +6,7 @@ export default function Banner() {
     <div className="lg:flex lg:justify-between">
       {/* LEFT SIDE */}
       <div className="">
-        <h1 className="font-bold text-4xl text-blue-950">Experience trading like never before</h1>
+        <h1 className="font-bold text-4xl text-blue-900">Experience trading like never before</h1>
         <p className="text-neutral-500 mt-4 text-lg">Use quickfunds globla optimized trading bot which is optimized for maximum profit</p>
       </div>
       <div className="mt-12">
