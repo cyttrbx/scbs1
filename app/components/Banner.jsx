@@ -10,7 +10,7 @@ export default function Banner() {
         <p className="text-neutral-500 mt-4 text-lg">Use quickfunds globla optimized trading bot which is optimized for maximum profit</p>
       </div>
       <div className="mt-12">
-        <Link href="/" className=" rounded h-[50px] py-4 px-8 text-neutral-100 bg-blue-600">Get Started</Link>
+        <Link href="/" className=" rounded h-[50px] py-4 px-8 text-neutral-100 bg-blue-600 ">Get Started</Link>
       </div>
       {/* IMAGE SIDE */}
 
