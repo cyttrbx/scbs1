@@ -20,7 +20,7 @@ export default function Banner() {
           <div>
             <Link
               href="/"
-              className=" rounded h-[50px] py-4 px-8 text-neutral-50 font-semibold bg-blue-600 shadow-xl hover:bg-blue-700"
+              className=" rounded h-[50px] py-4 px-8 text-neutral-50 font-semibold bg-blue-500 shadow-xl hover:bg-blue-600"
             >
               Get Started
             </Link>
@@ -29,7 +29,7 @@ export default function Banner() {
             
             <Link
               href="/"
-              className=" flex justify-center items-center rounded h-[48px] py-4 px-8 text-blue-600 font-semibold bg-neutral-50 border-2 border-blue-600 hover:bg-blue-600 hover:text-neutral-50 transition-all duration-200" 
+              className=" flex justify-center items-center rounded h-[48px] py-4 px-8 text-blue-500 font-semibold bg-neutral-50 border-2 border-blue-500 hover:bg-blue-500 hover:text-neutral-50 transition-all duration-200" 
             >
               Sign In
             </Link>
