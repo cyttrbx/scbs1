@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaPlay } from "react-icons/fa6";
+import { FaPlay } from "react-icons/fa";
 
 
 export default function Banner() {
