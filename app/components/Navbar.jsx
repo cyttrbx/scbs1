@@ -23,12 +23,12 @@ export default function Navbar() {
       {/* FIRST SIDE */}
       <div className="flex items-center gap-1">
         <div
-          className="bg-[#0b163f] text-white p-1 h-[30px] w-[30px] flex items-center justify-center rounded-tr-xl rounded-br-none 
+          className="bg-[#172c7a] text-white p-1 h-[30px] w-[30px] flex items-center justify-center rounded-tr-xl rounded-br-none 
   rounded-tl-none rounded-bl-xl"
         >
           <h2 className="text-neutral-50 text-xl">Q</h2>
         </div>
-        <h2 className=" text-[#0b163f] font-semibold text-xl">
+        <h2 className=" text-[#172c7a] font-semibold text-xl">
           QUICKFUNDS
         </h2>
       </div>
