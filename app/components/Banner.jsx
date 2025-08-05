@@ -12,11 +12,11 @@ export default function Banner() {
             Experience trading like never before
           </h1>
           <p className="text-slate-600 mt-4 text-lg lg:text-xl  leading-[30px]">
-            Use quickfunds global optimized trading bot which is optimized for
+            Invest in Bitcoin with confidence and use quickfunds global optimized trading bot which is optimized for
             maximum profit.
           </p>
         </div>
-        <div className="mt-12 mb-16 flex gap-10 items-center">
+        <div className="mt-6 mb-16 flex gap-10 items-center">
           <div>
             <Link
               href="/"

@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`flex justify-between items-center sticky py-6 top-0 z-50 px-4 lg:px-32 backdrop-blur transition-all duration-300 ${
+      className={`flex justify-between items-center sticky pb-4 pt-8 top-0 z-50 px-4 lg:px-32 backdrop-blur transition-all duration-300 ${
         scrolled ? "bg-white shadow-md" : "bg-neutral-50 "
       }`}
     >
@@ -46,7 +46,7 @@ export default function Navbar() {
         </Link>
         <Link
           href="/"
-          className=" rounded h-[50px] py-4 px-8 text-neutral-100 bg-blue-400 shadow-xl font-semibold"
+          className=" rounded h-[50px] py-4 px-8 text-neutral-100 bg-blue-600 shadow-xl font-semibold"
         >
           Get Started
         </Link>
