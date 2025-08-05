@@ -12,16 +12,16 @@ export default function Info1() {
           
         </div>
         <div className="">
-            <h1 className="font-bold text-2xl lg:text-5xl lg:max-w-[500px] text-blue-950">
+            <h1 className="font-bold text-3xl lg:text-5xl lg:max-w-[500px] text-blue-950">
             Trusted by over 12 thousand cryptocurrency investors.
           </h1>
-          <h2 className="text-slate-600 mt-4 text-md lg:text-xl  leading-[30px]">
+          <h2 className="text-slate-600 mt-4 lg:text-xl  leading-[30px]">
             The financial market changes each new day. We take advantage of
             these changes everyday to make profits. So, let's help you achieve
             your financial goals
           </h2>
         </div>
-        <div className="h-[500px] lg:hidden md:h-[550px] lg:h-[500px] relative mt-6 lg:mt-2">
+        <div className="h-[650px] lg:hidden md:h-[550px] lg:h-[500px] relative mt-6 lg:mt-2">
           <Image
             src="/images/single-phone.jpg"
             alt=""

@@ -23,12 +23,12 @@ export default function Navbar() {
       {/* FIRST SIDE */}
       <div className="flex items-center gap-1">
         <div
-          className="bg-blue-900 text-white p-1 h-[30px] w-[30px] flex items-center justify-center rounded-tr-xl rounded-br-none 
+          className="bg-blue-600 text-white p-1 h-[30px] w-[30px] flex items-center justify-center rounded-tr-xl rounded-br-none 
   rounded-tl-none rounded-bl-xl"
         >
           <h2 className="text-neutral-100 text-xl">Q</h2>
         </div>
-        <h2 className=" text-blue-900 font-semibold text-xl">QUICKFUNDS</h2>
+        <h2 className=" text-blue-600 font-semibold text-xl">QUICKFUNDS</h2>
       </div>
       {/* SECOND SIDE */}
       <div className="hidden lg:flex justify-between gap-8  text-slate-500 font-semibold">
