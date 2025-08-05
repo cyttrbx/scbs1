@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <div className="lg:flex lg:justify-between py-12 bg-[#e2f3f3] px-4 md:px-4 lg:px-32 border-blue-50">
+    <div className="lg:flex lg:justify-between py-12 bg-neutral-50 px-4 md:px-4 lg:px-32 border-blue-50">
       {/* LEFT SIDE */}
       <div className="">
-        <h1 className="font-bold text-4xl text-blue-950">
+        <h1 className="font-bold text-4xl text-blue-900">
           Experience trading like never before
         </h1>
         <p className="text-slate-600 mt-4 text-lg">
