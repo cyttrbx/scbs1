@@ -23,9 +23,9 @@ export default function Info1() {
         </h2>
       </div>
 
-      <div className="h-[450px] md:h-[550px] lg:h-[500px] relative mt-6 lg:mt-2">
+      <div className="h-[400px] md:h-[550px] lg:h-[500px] relative mt-6 lg:mt-2">
         <Image
-          src="/images/phones.jpg"
+          src="/images/crypto-app-image.png"
           alt=""
           width={0}
           height={0}
