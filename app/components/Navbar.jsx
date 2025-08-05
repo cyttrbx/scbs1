@@ -1,9 +1,25 @@
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { MdMenu } from "react-icons/md";
 
 export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10); // Add background after 10px scroll
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="flex justify-between items-center gap-4 h-[50px] bg-blue-50 sticky top-0 z-50 backdrop-blur pb-8 pt-12 lg:px-32  px-4">
+    <nav
+      className={`flex justify-between items-center gap-4 h-[50px] sticky top-0 z-50 backdrop-blur pb-10 pt-10 lg:px-32 px-4 transition-colors duration-300 ${
+        scrolled ? "bg-white shadow-md" : "bg-blue-50"
+      }`}
+    >
       {/* FIRST SIDE */}
       <div className="flex items-center gap-1">
         <div
@@ -27,7 +43,7 @@ export default function Navbar() {
         <Link href="/">Get Started</Link>
       </div>
       <div className="lg:hidden flex">
-        <MdMenu size={30} className="text-neutral-500"/>
+        <MdMenu size={30} className="text-neutral-500" />
       </div>
     </nav>
   );
