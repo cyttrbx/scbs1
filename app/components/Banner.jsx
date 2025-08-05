@@ -8,7 +8,7 @@ export default function Banner() {
     <div className="lg:grid lg:grid-cols-2 items-center py-12 lg:pt-4 lg:pb-12 bg-neutral-50 px-4 md:px-4 lg:px-32 ">
       <div>
         <div className="">
-          <h1 className="font-bold text-4xl lg:text-5xl lg:max-w-[500px]  lg:leading-[55px] text-blue-900 leading-[45px]">
+          <h1 className="font-bold text-4xl lg:text-5xl lg:max-w-[500px]  lg:leading-[55px] text-blue-950 leading-[45px]">
             Experience trading like never before
           </h1>
           <p className="text-slate-600 mt-4 text-lg lg:text-xl  leading-[30px]">
@@ -25,12 +25,12 @@ export default function Banner() {
               Get Started
             </Link>
           </div>
-          <div className="flex gap-4 items-center text-blue-500 cursor-pointer">
+          {/* <div className="flex gap-4 items-center text-blue-500 cursor-pointer">
             <div className="w-[45px] h-[45px] font-semibold border-2 border-blue-500 rounded-full flex justify-center items-center">
                 <FaPlay className="bg-blue-500"/>
             </div>
             <div className="font-semibold">How it works</div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* LEFT SIDE */}
