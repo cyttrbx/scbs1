@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 
 export default function Banner() {
   return (
-    <div className="lg:grid lg:grid-cols-2 items-center py-12 lg:pt-4 lg:pb-12 bg-neutral-50 px-4 md:px-4 lg:px-32 ">
+    <div className="lg:grid lg:grid-cols-2 items-center py-12 lg:pt-4 lg:pb-12 bg-neutral-50 px-6 md:px-8 lg:px-32 ">
       <div>
         <div className="">
           <h1 className="font-bold text-4xl lg:text-5xl lg:max-w-[500px]  lg:leading-[55px] text-blue-950 leading-[45px]">
@@ -39,7 +39,7 @@ export default function Banner() {
       {/* LEFT SIDE */}
       {/* IMAGE SIDE */}
 
-      <div className="h-[450px] md:h-[550px] lg:h-[500px] relative mt-6 lg:mt-2">
+      <div className="h-[400px] md:h-[550px] lg:h-[500px] relative mt-6 lg:mt-2">
         <Image
           src="/images/banner-people.png"
           alt=""
