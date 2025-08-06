@@ -6,14 +6,10 @@ import Info1 from "./components/Info1";
 import Info2 from "./components/Info2";
 
 export default function Home() {
-  return (
-    <>
-      
+  return <Banner />;
 
-      <Banner />
-
-      <Info1 />
-      <Info2 />
-    </>
-  );
+  {
+    /* <Info1 />
+      <Info2 /> */
+  }
 }
