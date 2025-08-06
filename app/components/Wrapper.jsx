@@ -1,8 +1,3 @@
 export default function Wrapper({ children }) {
-  return (
-    <div className="min-h-screen bg-neutral-50 px-4 md:px-4 lg:px-32 pt-8 ">
-      {children}
-      
-    </div>
-  );
+  return <div className="px-4 xl:px-20 md:px-10 py-10 md:py-8">{children}</div>;
 }
