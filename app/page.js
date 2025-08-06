@@ -6,10 +6,16 @@ import Info1 from "./components/Info1";
 import Info2 from "./components/Info2";
 
 export default function Home() {
-  return <Banner />;
+  return (
+    <>
+      <div className="p-4 bg-neutral-50 min-h-screen">
+        <h1>Experience trading like never before</h1>
 
-  {
-    /* <Info1 />
-      <Info2 /> */
-  }
+        <p>
+          Invest in Bitcoi with confidence and use quickfunds global optimized
+          trading bot which is optimized for maximum profit
+        </p>
+      </div>
+    </>
+  );
 }
