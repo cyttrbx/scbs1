@@ -8,7 +8,7 @@ import Info2 from "./components/Info2";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      
 
       <Banner />
 
