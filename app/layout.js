@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="min-h-screen flex flex-col overflow-x-hidden">
-          <main className="flex-grow">{children}</main>
+        <div className="bg-neutral-50">
+          <main className="">{children}</main>
         </div>
       </body>
     </html>

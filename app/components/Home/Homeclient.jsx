@@ -1,14 +1,16 @@
+import Banner from "../Banner";
+import Info1 from "../Info1";
+import Navbar from "../Navbar";
 import Wrapper from "../Wrapper";
 
 export default function HomeClient() {
   return (
-    <Wrapper>
-      <h1>Experience trading like never before</h1>
-
-      <p>
-        Invest in Bitcoi with confidence and use quickfunds global optimized
-        trading bot which is optimized for maximum profit new 2
-      </p>
-    </Wrapper>
+    <>
+      <Navbar />
+      <Wrapper>
+        <Banner />
+      </Wrapper>
+      <Info1 />
+    </>
   );
 }
