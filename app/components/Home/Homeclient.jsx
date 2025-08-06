@@ -7,7 +7,7 @@ export default function HomeClient() {
 
       <p>
         Invest in Bitcoi with confidence and use quickfunds global optimized
-        trading bot which is optimized for maximum profit
+        trading bot which is optimized for maximum profit new 2
       </p>
     </Wrapper>
   );
