@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 export default function Banner() {
   return (
-    <div className="lg:grid lg:grid-cols-2 items-center py-12 lg:pt-4 lg:pb-12 bg-neutral-50 md:px-8 lg:px-32 ">
+    <div className="lg:grid lg:grid-cols-2 items-center py-12 lg:pt-4 lg:pb-12 bg-neutral-50 px-5 md:px-8 lg:px-32 ">
       <div className="">
         <h1 className="font-bold text-4xl lg:text-5xl lg:max-w-[500px]  lg:leading-[55px] text-blue-950 leading-[45px]">
           Experience trading like never before
@@ -18,7 +18,7 @@ export default function Banner() {
         <div>
           <Link
             href="/"
-            className=" rounded h-[50px] py-4 px-8 text-neutral-50 font-semibold bg-blue-600 shadow-xl hover:bg-blue-700"
+            className=" rounded py-3 px-8 text-neutral-50 font-semibold bg-blue-600 shadow-xl hover:bg-blue-700"
           >
             Get Started
           </Link>
@@ -26,7 +26,7 @@ export default function Banner() {
         <div className="flex gap-4 items-center text-blue-600 cursor-pointer">
           <Link
             href="/"
-            className=" flex justify-center items-center rounded h-[48px] py-4 px-8 text-blue-600 font-semibold bg-neutral-50 border-2 border-blue-600 hover:bg-blue-700 hover:text-neutral-50 transition-all duration-200"
+            className=" flex justify-center items-center rounded py-2 px-8 text-blue-600 font-semibold bg-neutral-50 border-2 border-blue-600 hover:bg-blue-700 hover:text-neutral-50 transition-all duration-200"
           >
             Sign In
           </Link>

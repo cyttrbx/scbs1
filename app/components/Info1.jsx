@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Info1() {
   return (
-    <div className="py-8 bg-[#0b163f] px-4">
+    <div className="py-8 bg-[#0b163f] px-5">
       <div className="">
         <h1 className="font-bold text-xl lg:text-5xl lg:max-w-[500px]  lg:leading-[55px] text-neutral-100 leading-[45px] text-center">
           Why Choose Us?
