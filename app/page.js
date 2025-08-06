@@ -8,7 +8,7 @@ import Info2 from "./components/Info2";
 export default function Home() {
   return (
     <>
-      <div className="p-4 bg-neutral-50 min-h-screen overflow-x-hidden">
+      <div className="p-4 bg-neutral-50 min-h-screen max-w-full">
         <h1>Experience trading like never before</h1>
 
         <p>
