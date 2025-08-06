@@ -18,7 +18,7 @@ export default function Info1() {
         </h1> */}
         <h2 className=" text-neutral-300 lg:text-xl text-lg  leading-[30px] text-center">
           The financial market changes each new day. We take advantage of these
-          changes everyday to make profits. So, let's help you achieve your
+          changes to make profits. So, let's help you achieve your
           financial goals
         </h2>
       </div>
@@ -33,7 +33,7 @@ export default function Info1() {
           className="object-contain w-full h-full cursor-pointer"
         />
       </div>
-      <div className=" mt-8">
+      <div className=" mt-12">
         <h1 className="text-neutral-100 text-xl font-semibold">FEATURES</h1>
         <p className="text-neutral-300 mt-2 text-lg">
           Our investment providing services focus on our clients' most critical
