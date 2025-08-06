@@ -12,8 +12,8 @@ export default function Home() {
 
       <Banner />
 
-      <Info1 />
-      <Info2 />
+      {/* <Info1 /> */}
+      {/* <Info2 /> */}
     </>
   );
 }

@@ -16,7 +16,7 @@ export default function Banner() {
             maximum profit.
           </p>
         </div>
-        <div className="mt-6 mb-16 flex gap-10 items-center">
+        <div className="mt-6 mb-16 flex gap-6 items-center">
           <div>
             <Link
               href="/"
