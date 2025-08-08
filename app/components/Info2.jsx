@@ -3,8 +3,8 @@ import Wrapper from "./Wrapper";
 
 export default function Info2() {
   return (
-    <div className="py-12 lg:pt-4 lg:pb-12 bg-neutral-50 px-5 md:px-8 lg:px-32 h-[500px]">
-      <h2 className="text-center text-2xl font-bold text-[#0b163f]">
+    <div className="py-8 lg:pt-4 lg:pb-12 bg-neutral-50 px-5 md:px-8 lg:px-32">
+      <h2 className="text-center text-[25px] font-bold text-[#0b163f]">
         Over 500 Companies Trusted Us
       </h2>
       <div className="grid grid-cols-2 gap-6 mt-6">

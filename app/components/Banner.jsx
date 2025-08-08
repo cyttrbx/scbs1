@@ -18,7 +18,7 @@ export default function Banner() {
         <div>
           <Link
             href="/"
-            className=" rounded h-[50px] py-4 px-8 text-neutral-50 font-semibold bg-blue-500 shadow-xl hover:bg-slate-700"
+            className=" rounded h-[50px] py-4 px-8 text-neutral-50 font-semibold bg-blue-600 hover:bg-blue-600 hover:shadow-xl"
           >
             Get Started
           </Link>
@@ -26,7 +26,7 @@ export default function Banner() {
         <div className="flex gap-4 items-center text-blue-600 cursor-pointer">
           <Link
             href="/"
-            className=" flex justify-center items-center rounded py-3 px-8 text-blue-400 font-semibold bg-neutral-50 border-2 border-blue-400 hover:bg-blue-500 hover:border-blue-500 hover:text-neutral-50 transition-all duration-100"
+            className=" flex justify-center items-center rounded py-3 px-8 text-blue-600 font-semibold bg-neutral-50 border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-600 hover:text-neutral-50 transition-all duration-100"
           >
             Sign In
           </Link>
