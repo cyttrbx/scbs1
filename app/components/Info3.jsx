@@ -24,13 +24,13 @@ export default function CoinTicker() {
 
   return (
     <div className="text-neutral-50 pt-8 pb-12 lg:pt-4 lg:pb-12 md:px-8 lg:px-32">
-      <div className="h-[120px] bg-[#0b163f] flex items-center justify-center overflow-hidden">
+      <div className="h-[100px] bg-[#0b163f] flex items-center justify-center overflow-hidden">
         {/* Sliding Container */}
         <div className="whitespace-nowrap animate-ticker-left flex bg-neutral-50 py-1">
           {[...info, ...info]?.map((coin) => (
             <div
               key={`${coin.id}-${Math.random()}`}
-              className="text-neutral-500 flex items-center gap-2 mx-6"
+              className="text-neutral-500 flex items-center gap-2 mx-3"
             >
               <div className="h-[20px] md:h-[40px] lg:h-[40px] relative w-auto">
                 {coin?.image && (
@@ -43,14 +43,14 @@ export default function CoinTicker() {
                   />
                 )}
               </div>
-              <p className="text-blue-600 font-semibold text-[14px]">{coin?.name}</p>
-              <p className="text-[13px]">[{coin?.symbol}]</p>
+              <p className="text-blue-600 font-semibold text-[16px]">{coin?.name}</p>
+              <p className="text-[15px]">[{coin?.symbol}]</p>
               <p className="text-slate-900 font-semibold text-sm">${coin?.current_price}</p>
               <p
                 className={`${
                   coin?.price_change_percentage_24h > 0
-                    ? "text-green-600 text-[12px]"
-                    : "text-red-600 text-[12px]"
+                    ? "text-green-600 text-[14px]"
+                    : "text-red-600 text-[14px]"
                 }`}
               >
                 {coin?.price_change_percentage_24h}%
