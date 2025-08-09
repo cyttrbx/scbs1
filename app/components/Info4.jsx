@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Info4() {
   return (
@@ -19,7 +20,7 @@ export default function Info4() {
         className="text-blue-600 flex items-center mt-2 gap-2 font-semibold w-fit"
       >
         Start learning
-        <FaLongArrowAltRight className=" text-blue-600" />
+        <FaArrowRightLong className=" text-blue-600" />
       </Link>
 
       <div className=" relative mt-3 rounded overflow-x-hidden">
