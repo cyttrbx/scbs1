@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 export default function Info4() {
   return (
-    <div className=" pb-10 py-4 lg:pt-4 lg:pb-12 bg-neutral-50 px-5 md:px-8 lg:px-32 ">
+    <div className=" pb-10 mt-6 py-4 lg:pt-4 lg:pb-12 bg-neutral-50 px-5 md:px-8 lg:px-32 ">
       <h2 className="text-[25px] font-semibold text-[#0b163f]">
         Learn about Bitcoin
       </h2>
@@ -19,7 +19,7 @@ export default function Info4() {
         className="text-blue-600 flex items-center mt-2 gap-2 font-semibold w-fit"
       >
         Start learning
-        <FaArrowRightLong className=" text-blue-600 mt-1" />
+        <FaLongArrowAltRight className=" text-blue-600" />
       </Link>
 
       <div className=" relative mt-3 rounded overflow-x-hidden">

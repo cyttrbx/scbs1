@@ -18,7 +18,7 @@ export default function Info2() {
             sizes="100vw"
             className="object-contain w-full h-[70%] cursor-pointer"
           />
-        </div>
+        </div>s
         <div className="h-[60px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
   rounded-tl-xl rounded-bl-none shadow-sm">
           <Image
