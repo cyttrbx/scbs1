@@ -7,7 +7,7 @@ export default function Banner() {
     <div className="lg:grid lg:grid-cols-2 items-center py-12 lg:pt-4 lg:pb-12 bg-neutral-50 px-5 md:px-8 lg:px-32 ">
       <div className="">
         <h1 className="font-bold text-4xl lg:text-5xl lg:max-w-[500px]  lg:leading-[55px] text-blue-950 leading-[45px]">
-          Experience trading like never before
+          Experience crypto trading like never before
         </h1>
         <p className="text-slate-600 mt-4 text-lg lg:text-xl  leading-[30px]">
           Invest in Bitcoin with confidence and use quickfunds global optimized

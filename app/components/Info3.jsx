@@ -72,7 +72,7 @@ export default function CoinTicker() {
           display: inline-flex;
           align-items: center;
           gap: 0.5rem;
-          margin: 0 0.75rem;
+          margin: 0 1.20rem;
           color: #555;
         }
 
