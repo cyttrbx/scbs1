@@ -71,7 +71,7 @@ export default function CoinTicker() {
         .coin-item {
           display: inline-flex;
           align-items: center;
-          gap: 0.8rem;
+          gap: 0.5rem;
           margin: 0 0.75rem;
           color: #555;
         }
