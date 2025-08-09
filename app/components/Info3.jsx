@@ -24,7 +24,7 @@ export default function CoinTicker() {
 
   return (
     <div className="ticker-container">
-      <div className="ticker-track bg-neutral-50 pb-1 pt-2">
+      <div className="ticker-track bg-neutral-50 pb-1 pt-[6px]">
         {[...info, ...info]?.map((coin) => (
           <div key={`${coin.id}-${Math.random()}`} className="coin-item">
             <div className="coin-image">
@@ -40,10 +40,10 @@ export default function CoinTicker() {
             </div>
             <p className="coin-name">{coin?.name}</p>
             <p className="coin-symbol">[{coin?.symbol}]</p>
-            <p className="coin-price">${coin?.current_price}</p>
+            <p className="coin-price mt-1">${coin?.current_price}</p>
             <p
               className={
-                coin?.price_change_percentage_24h > 0 ? "coin-up" : "coin-down"
+                coin?.price_change_percentage_24h > 0 ? "coin-up mt-1" : "coin-down mt-1"
               }
             >
               {coin?.price_change_percentage_24h}%
@@ -71,7 +71,7 @@ export default function CoinTicker() {
         .coin-item {
           display: inline-flex;
           align-items: center;
-          gap: 0.5rem;
+          gap: 0.8rem;
           margin: 0 0.75rem;
           color: #555;
         }

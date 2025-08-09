@@ -8,7 +8,7 @@ export default function Info2() {
         Over 500 Companies Trusted Us
       </h2>
       <div className="grid grid-cols-2 gap-6 mt-6">
-        <div className="h-[70px] p-1 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
+        <div className="h-[60px] p-1 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
   rounded-tl-xl rounded-bl-none shadow-sm">
           <Image
             src="/images/huobi.svg"
@@ -19,7 +19,7 @@ export default function Info2() {
             className="object-contain w-full h-[70%] cursor-pointer"
           />
         </div>
-        <div className="h-[70px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
+        <div className="h-[60px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
   rounded-tl-xl rounded-bl-none shadow-sm">
           <Image
             src="/images/coinone.svg"
@@ -30,7 +30,7 @@ export default function Info2() {
             className="object-contain w-full h-full cursor-pointer"
           />
         </div>
-        <div className="h-[70px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
+        <div className="h-[60px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
   rounded-tl-xl rounded-bl-none shadow-sm">
           <Image
             src="/images/montex.svg"
@@ -41,7 +41,7 @@ export default function Info2() {
             className="object-contain w-full h-full cursor-pointer"
           />
         </div>
-        <div className="h-[70px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
+        <div className="h-[60px] p-3 md:h-[250px] lg:h-[200px] relative bg-white flex items-center justify-center rounded-tr-none rounded-br-xl 
   rounded-tl-xl rounded-bl-none shadow-sm">
           <Image
             src="/images/the-blockchain-group.svg"
