@@ -23,55 +23,105 @@ export default function CoinTicker() {
   }, []);
 
   return (
-    <div className="text-neutral-50 pt-8 pb-12 lg:pt-4 lg:pb-12 md:px-8 lg:px-32">
-      <div className="h-[100px] bg-[#0b163f] flex items-center justify-center overflow-hidden">
-        {/* Sliding Container */}
-        <div className="whitespace-nowrap animate-ticker-left flex bg-neutral-50 py-1">
-          {[...info, ...info]?.map((coin) => (
-            <div
-              key={`${coin.id}-${Math.random()}`}
-              className="text-neutral-500 flex items-center gap-2 mx-3"
-            >
-              <div className="h-[20px] md:h-[40px] lg:h-[40px] relative w-auto">
-                {coin?.image && (
-                  <Image
-                    src={coin.image}
-                    alt="crypto image"
-                    width={30}
-                    height={30}
-                    className="object-contain cursor-pointer"
-                  />
-                )}
-              </div>
-              <p className="text-blue-600 font-semibold text-[16px]">{coin?.name}</p>
-              <p className="text-[15px]">[{coin?.symbol}]</p>
-              <p className="text-slate-900 font-semibold text-sm">${coin?.current_price}</p>
-              <p
-                className={`${
-                  coin?.price_change_percentage_24h > 0
-                    ? "text-green-600 text-[14px]"
-                    : "text-red-600 text-[14px]"
-                }`}
-              >
-                {coin?.price_change_percentage_24h}%
-              </p>
+    <div className="ticker-container">
+      <div className="ticker-track bg-neutral-50 py-1">
+        {[...info, ...info]?.map((coin) => (
+          <div key={`${coin.id}-${Math.random()}`} className="coin-item">
+            <div className="coin-image">
+              {coin?.image && (
+                <Image
+                  src={coin.image}
+                  alt="crypto image"
+                  width={25}
+                  height={25}
+                  className="object-contain cursor-pointer"
+                />
+              )}
             </div>
-          ))}
-        </div>
+            <p className="coin-name">{coin?.name}</p>
+            <p className="coin-symbol">[{coin?.symbol}]</p>
+            <p className="coin-price">${coin?.current_price}</p>
+            <p
+              className={
+                coin?.price_change_percentage_24h > 0 ? "coin-up" : "coin-down"
+              }
+            >
+              {coin?.price_change_percentage_24h}%
+            </p>
+          </div>
+        ))}
       </div>
 
-      {/* Animation Styles */}
       <style jsx>{`
-        @keyframes ticker-left {
+        .ticker-container {
+          overflow: hidden;
+          background: #0b163f;
+          height: 100px;
+          display: flex;
+          align-items: center;
+        }
+
+        .ticker-track {
+          display: inline-block; /* Safari fix */
+          white-space: nowrap;
+          -webkit-animation: ticker-left 120s linear infinite;
+          animation: ticker-left 300s linear infinite;
+        }
+
+        .coin-item {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin: 0 0.75rem;
+          color: #555;
+        }
+
+        .coin-name {
+          color: #2563eb;
+          font-weight: 600;
+          font-size: 16px;
+        }
+
+        .coin-symbol {
+          font-size: 15px;
+        }
+
+        .coin-price {
+          color: #1f2937;
+          font-weight: 600;
+          font-size: 14px;
+        }
+
+        .coin-up {
+          color: #16a34a;
+          font-size: 14px;
+        }
+
+        .coin-down {
+          color: #dc2626;
+          font-size: 14px;
+        }
+
+        @-webkit-keyframes ticker-left {
           0% {
+            -webkit-transform: translateX(0);
             transform: translateX(0);
           }
           100% {
+            -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
           }
         }
-        .animate-ticker-left {
-          animation: ticker-left 400s linear infinite;
+
+        @keyframes ticker-left {
+          0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+          }
+          100% {
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+          }
         }
       `}</style>
     </div>
