@@ -5,6 +5,7 @@ import Info3 from "../Info3";
 import Info4 from "../Info4";
 import Info5 from "../Info5";
 import Navbar from "../Navbar";
+import Testimonials from "../Testimonials";
 import Wrapper from "../Wrapper";
 
 export default function HomeClient() {
@@ -19,6 +20,7 @@ export default function HomeClient() {
       <Info3 />
       <Info4 />
       <Info5 />
+      <Testimonials />
     </>
   );
 }
