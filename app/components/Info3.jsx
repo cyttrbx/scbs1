@@ -24,7 +24,7 @@ export default function CoinTicker() {
 
   return (
     <div className="ticker-container">
-      <div className="ticker-track bg-neutral-50 py-1">
+      <div className="ticker-track bg-neutral-50 pb-1 pt-2">
         {[...info, ...info]?.map((coin) => (
           <div key={`${coin.id}-${Math.random()}`} className="coin-item">
             <div className="coin-image">
